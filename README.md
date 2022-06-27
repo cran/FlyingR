@@ -5,12 +5,10 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/BMasinde/flight.svg?branch=master)](https://travis-ci.org/BMasinde/flight)
+[![R-CMD-check](https://github.com/BMasinde/FlyingR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/BMasinde/FlyingR/actions/workflows/R-CMD-check.yaml)
 [![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/BMasinde/flight?branch=master&svg=true)](https://ci.appveyor.com/project/BMasinde/flight)
-[![Coveralls test
-coverage](https://coveralls.io/repos/github/BMasinde/flight/badge.svg)](https://coveralls.io/github/BMasinde/flight?branch=master)
+status](https://ci.appveyor.com/api/projects/status/github/BMasinde/FlyingR?branch=master&svg=true)](https://ci.appveyor.com/project/BMasinde/FlyingR)
+[![codecov](https://codecov.io/gh/BMasinde/FlyingR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/BMasinde/FlyingR)
 <!-- badges: end -->
 
 The package provides methods for predicting flight range of birds based
@@ -107,7 +105,7 @@ should have columns named appropriately. The package looks for columns
 named *id, name or species.name*, *bodymass or allupmass*, *wingspan,
 ws*, *wingarea*, *ordo, order* (which is a factored column with levels 1
 or 2 passerines and non-passerines respectively) *fatmass, fat.mass,
-fat\_mass* and lastly *muscle\_mass*.
+fat_mass* and lastly *muscle_mass*.
 
 ``` r
 birds
